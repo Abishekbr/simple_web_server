@@ -21,6 +21,7 @@ Serving the HTML pages.
 Testing the webserver.
 
 # PROGRAM:
+```
 rom http.server import HTTPServer,  BaseHTTPRequestHandler
 content = """
 <!DOCTYPE html>
@@ -105,7 +106,7 @@ server_address =('',8000)
 httpd = HTTPServer(server_address,myhandler)
 print("my server is running...")
 httpd.serve_forever()
-    
+ ```   
 
 # OUTPUT:
 ![image](https://github.com/user-attachments/assets/88093502-6e74-4e54-8f39-a98cf68d1abe)
